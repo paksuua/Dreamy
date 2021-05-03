@@ -60,16 +60,16 @@
 ## 😜[Gitmoji](https://gitmoji.dev/)
 <div align="left"><img width="400" height="400" alt="wooly_logo" src="https://user-images.githubusercontent.com/43838030/116831425-49930180-abea-11eb-89af-e0780b88e0d1.JPG"></div>
 -->
-<!--
-### 📚 2. Activity 구조
+
+### 📚 2. 프로젝트 구조
 |                  Activity   |                 Description   |
 | ----------------------------------- | ------------------------------------------- |
 | LoginActivity  |  로그인  |
 | SignupActivity  |  회원가입  |
-| VideoActivity  | 영상의 문장에 대답하고 STT로 대답을 확인하는 영상학습 진행 |
-| ShadowingActivity  | 영상 속 문장을 따라 말하는 Shadowing 학습 진행, 학습 결과가 자동 녹음됨 |
-| ChatbotActivity  | 사전 학습시킨 Google Dialogflow 를 이용한 챗봇 구현 |
-| ReviewActivity  |  학습 영상에 포함된 주요 문장 스피킹 학습 |
-| ReviewWordActivity  |  학습한 영상에 포함된 주요 단어 학습 |
-| VideoLearnActivity  | 영상 학습시 저장된 녹음 및 STT 텍스트로 복습 |
--->
+| TodiaryActivity  | 다이어리 작성 |
+| DeditActivity  |  다이어리 수정 |
+| DlistActivity  |  무드 별 다이어리 목록 |
+| UserVO  | user 데이터 구조 정의 및 getter/setter  |
+| DiaryVO  | diary 데이터 구조 정의 및 getter/setter |
+| dbHelper  | 테이블 생성 |
+
